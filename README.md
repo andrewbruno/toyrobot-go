@@ -1,4 +1,4 @@
-# Date Diff
+# Toy Robot Simulation
 
 A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
@@ -29,7 +29,7 @@ go run main.go
 
 ```
 cd $GOPATH/src/toyrobot
-go run main.go < cases.txt 
+go run main.go < cases.txt -- TODO ---
 ```
 
 ## Testing code coverage via GO
