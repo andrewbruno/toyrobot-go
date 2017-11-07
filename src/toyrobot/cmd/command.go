@@ -38,9 +38,8 @@ func parsePlace(input string) []string {
 	matchPlace := regExpPlace.FindStringSubmatch(input)
 
 	if len(matchPlace) == cmdPlaceMatchCount {
-		x := ""
-		y := ""
-		f := ""
+
+		var x, y, f string
 
 		for i, name := range regExpPlace.SubexpNames() {
 			if i > 0 && i <= len(matchPlace) {
@@ -54,9 +53,8 @@ func parsePlace(input string) []string {
 				}
 			}
 		}
-		if len(x) != 0 && len(y) != 0 && len(f) != 0 {
-			return []string{"PLACE", x, y, f}
-		}
+
+		return []string{"PLACE", x, y, f}
 	}
 
 	return nil
