@@ -1,4 +1,4 @@
-# Toy Robot Simulation
+# Toy Robot Simulator
 
 A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
