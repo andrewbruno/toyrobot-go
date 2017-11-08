@@ -18,7 +18,7 @@ func TestNewRobot(t *testing.T) {
 func TestUpdate(t *testing.T) {
 	robot := toy.NewRobot()
 	robot.Update(unit.X(2), unit.Y(3), compass.SOUTH)
-	if robot.X() != unit.X(2) || robot.Y() != unit.Y(3) || robot.F() != compass.SOUTH {
-		t.Errorf("Update failed, expected %s,%s,%s but got %s,%s,%s", unit.X(2), unit.Y(2), compass.SOUTH, robot.X(), robot.Y(), robot.F())
+	if robot.X != unit.X(2) || robot.Y != unit.Y(3) || robot.F != compass.SOUTH {
+		t.Errorf("Update failed, expected %s,%s,%s but got %s,%s,%s", unit.X(2), unit.Y(2), compass.SOUTH, robot.X, robot.Y, robot.F)
 	}
 }
