@@ -1,7 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"os"
+	"toyrobot/ui"
+)
 
 func main() {
- fmt.Println("Hello")
-}	
+
+	ui := &ui.UI{
+		WriterOK:  os.Stdout,
+		WriterErr: os.Stderr,
+		ReaderIn:  os.Stdin,
+	}
+
+	ui.Start()
+
+}
