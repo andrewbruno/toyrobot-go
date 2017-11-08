@@ -29,7 +29,9 @@ go run main.go
 
 ```
 cd $GOPATH/src/toyrobot
-go run main.go < cases.txt -- TODO ---
+go run main.go < scenarioA.txt
+go run main.go < scenarioB.txt
+go run main.go < scenarioC.txt
 ```
 
 ## Testing code coverage via GO
@@ -37,3 +39,16 @@ go run main.go < cases.txt -- TODO ---
 ```
 go test -cover ./...
 ```
+
+Expected out:
+
+```
+?       toyrobot        [no test files]
+ok      toyrobot/cmd    0.006s  coverage: 100.0% of statements
+ok      toyrobot/compass        0.007s  coverage: 100.0% of statements
+ok      toyrobot/table  0.007s  coverage: 100.0% of statements
+ok      toyrobot/toy    0.011s  coverage: 100.0% of statements
+ok      toyrobot/ui     0.013s  coverage: 100.0% of statements
+ok      toyrobot/unit   0.010s  coverage: 100.0% of statements
+```
+
