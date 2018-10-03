@@ -4,9 +4,9 @@ A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
 ## Prerequisites
 
-The code has been tested with Go 1.8.3 and Go 1.11.1.  Ensure your go version is 1.8+ by executing `go version`
+The code has been tested with Go 1.8.3 and Go 1.11.1.  Ensure your Go version is 1.8+ by executing `go version`
 
-If you don't have go installed, you can download it from https://golang.org/dl/
+If you don't have Go installed, you can download it from https://golang.org/dl/
 
 Clone the project, and setup the GOPATH variable to the root of the project.
 
