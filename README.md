@@ -2,16 +2,22 @@
 
 A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
-## Setup
+## Prerequisites
 
-1. Install Go 1.8+
+The code has been tested with Go 1.8.3 and Go 1.11.1.  Ensure your go version is 1.8+ by executing `go version`
 
-2. Ensure GOPATH is set to root of the project
+If you don't have go installed, you can download it from https://golang.org/dl/
 
-e.g. the following command should work
+Clone the project, and setup the GOPATH variable to the root of the project.
+
+## Steps to setup and run
 
 ```
+git clone https://bitbucket.org/andrewbruno/go-toyrobot.git
+cd go-toyrobot
+export GOPATH=`pwd`
 cd $GOPATH/src/toyrobot
+go run main.go
 ```
 
 ## Extra Features
@@ -51,4 +57,3 @@ ok      toyrobot/toy    0.011s  coverage: 100.0% of statements
 ok      toyrobot/ui     0.013s  coverage: 100.0% of statements
 ok      toyrobot/unit   0.010s  coverage: 100.0% of statements
 ```
-
