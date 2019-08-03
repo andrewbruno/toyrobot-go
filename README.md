@@ -65,4 +65,4 @@ Golang is a beautiful language (subjective, I agree).  Let me explain why I like
   * testing is out of the box.  No need for third party testing frameworks. Makes it ideal for TDD
   * is less verbose than say, Java.  No need for private, public, etc.
   * is statically typed language, so many checks done at compile time.
-  * all variables must be used, cannot compile if a variable is declared and use.
+  * all variables must be used, cannot compile if a variable is declared and not used.
