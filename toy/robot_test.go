@@ -3,16 +3,15 @@ package toy_test
 import (
 	"testing"
 
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/toy"
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
+	"github.com/andrewbruno/go-toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/toy"
+	"github.com/andrewbruno/go-toyrobot/unit"
 )
 
 func TestNewRobot(t *testing.T) {
-	var robot toy.Toyer
-	robot = toy.NewRobot()
+	robot := toy.NewRobot()
 	if robot == nil {
-		t.Errorf("Could not instantiate a new table object")
+		t.Errorf("Could not instantiate a new robot object")
 	}
 }
 

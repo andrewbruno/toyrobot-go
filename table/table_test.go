@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
+	"github.com/andrewbruno/go-toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/unit"
 )
 
 func TestNewTable(t *testing.T) {
