@@ -2,7 +2,8 @@ package cmd_test
 
 import (
 	"testing"
-	"toyrobot/cmd"
+
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/cmd"
 )
 
 func TestParseInput(t *testing.T) {

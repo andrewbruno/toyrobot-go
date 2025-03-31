@@ -1,8 +1,8 @@
 package toy
 
 import (
-	"toyrobot/compass"
-	"toyrobot/unit"
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
 )
 
 // Toyer definition
