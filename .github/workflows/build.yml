@@ -16,9 +16,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: List files
-        run: pwd && ls -la
-
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
@@ -31,4 +28,4 @@ jobs:
         run: go mod tidy
 
       - name: Run tests
-        run: make coverage
+        run: make test
