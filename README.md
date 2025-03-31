@@ -4,19 +4,19 @@ A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
 ## Prerequisites
 
-The code has been tested with Go 1.8.3 and Go 1.11.1.  Ensure your Go version is 1.8+ by executing `go version`
+The code has been tested with the latest Go version. Ensure your Go version is up-to-date by executing `go version`.
 
 If you don't have Go installed, you can download it from https://golang.org/dl/
 
-Clone the project, and setup the GOPATH variable to the root of the project.
+Clone the project and initialize the Go module dependencies.
 
 ## Steps to setup and run
 
 ```
-git clone https://bitbucket.org/andrewbruno/go-toyrobot.git
+git clone https://github.com/andrewbruno/go-toyrobot.git
 cd go-toyrobot
-export GOPATH=`pwd`
-cd $GOPATH/src/toyrobot
+go mod tidy
+cd src/toyrobot
 go run main.go
 ```
 
@@ -27,14 +27,14 @@ CLI accepts "q" to quit program
 ## Testing via CLI
 
 ```
-cd $GOPATH/src/toyrobot
+cd src/toyrobot
 go run main.go 
 ```
 
 ## Testing via file input
 
 ```
-cd $GOPATH/src/toyrobot
+cd src/toyrobot
 go run main.go < scenarioA.txt
 go run main.go < scenarioB.txt
 go run main.go < scenarioC.txt

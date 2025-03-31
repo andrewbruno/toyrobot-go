@@ -2,9 +2,10 @@ package toy_test
 
 import (
 	"testing"
-	"toyrobot/compass"
-	"toyrobot/toy"
-	"toyrobot/unit"
+
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/toy"
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
 )
 
 func TestNewRobot(t *testing.T) {

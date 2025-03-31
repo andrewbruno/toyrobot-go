@@ -3,7 +3,8 @@ package unit_test
 import (
 	"fmt"
 	"testing"
-	"toyrobot/unit"
+
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
 )
 
 func TestUnitXString(t *testing.T) {

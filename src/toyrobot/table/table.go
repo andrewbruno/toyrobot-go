@@ -2,9 +2,10 @@ package table
 
 import (
 	"fmt"
-	"toyrobot/compass"
-	"toyrobot/toy"
-	"toyrobot/unit"
+
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/toy"
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
 )
 
 var (

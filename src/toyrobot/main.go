@@ -2,7 +2,8 @@ package main
 
 import (
 	"os"
-	"toyrobot/ui"
+
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/ui"
 )
 
 func main() {

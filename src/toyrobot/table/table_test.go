@@ -3,8 +3,9 @@ package table
 import (
 	"fmt"
 	"testing"
-	"toyrobot/compass"
-	"toyrobot/unit"
+
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
 )
 
 func TestNewTable(t *testing.T) {
