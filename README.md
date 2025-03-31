@@ -15,9 +15,7 @@ Clone the project and initialize the Go module dependencies.
 ```
 git clone https://github.com/andrewbruno/go-toyrobot.git
 cd go-toyrobot
-go mod tidy
-cd src/toyrobot
-go run main.go
+make run
 ```
 
 ## Extra Features
@@ -27,14 +25,12 @@ CLI accepts "q" to quit program
 ## Testing via CLI
 
 ```
-cd src/toyrobot
-go run main.go 
+make test
 ```
 
 ## Testing via file input
 
 ```
-cd src/toyrobot
 go run main.go < scenarioA.txt
 go run main.go < scenarioB.txt
 go run main.go < scenarioC.txt
@@ -49,13 +45,13 @@ go test -cover ./...
 Expected out:
 
 ```
-?       toyrobot        [no test files]
-ok      toyrobot/cmd    0.006s  coverage: 100.0% of statements
-ok      toyrobot/compass        0.007s  coverage: 100.0% of statements
-ok      toyrobot/table  0.007s  coverage: 100.0% of statements
-ok      toyrobot/toy    0.011s  coverage: 100.0% of statements
-ok      toyrobot/ui     0.013s  coverage: 100.0% of statements
-ok      toyrobot/unit   0.010s  coverage: 100.0% of statements
+        github.com/andrewbruno/go-toyrobot          coverage: 0.0% of statements
+ok      github.com/andrewbruno/go-toyrobot/cmd      coverage: 100.0% of statements
+ok      github.com/andrewbruno/go-toyrobot/compass  coverage: 100.0% of statements
+ok      github.com/andrewbruno/go-toyrobot/table    coverage: 100.0% of statements
+ok      github.com/andrewbruno/go-toyrobot/toy      coverage: 100.0% of statements
+ok      github.com/andrewbruno/go-toyrobot/ui       coverage: 100.0% of statements
+ok      github.com/andrewbruno/go-toyrobot/unit     coverage: 100.0% of statements
 ```
 
 ## Why Go?
