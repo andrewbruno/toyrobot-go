@@ -11,7 +11,7 @@ import (
 func TestNewRobot(t *testing.T) {
 	robot := toy.NewRobot()
 	if robot == nil {
-		t.Errorf("Could not instantiate a new table object")
+		t.Errorf("Could not instantiate a new robot object")
 	}
 }
 
