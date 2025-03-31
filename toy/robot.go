@@ -1,8 +1,8 @@
 package toy
 
 import (
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
+	"github.com/andrewbruno/go-toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/unit"
 )
 
 // Robot object

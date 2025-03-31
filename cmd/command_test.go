@@ -3,7 +3,7 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/cmd"
+	"github.com/andrewbruno/go-toyrobot/cmd"
 )
 
 func TestParseInput(t *testing.T) {

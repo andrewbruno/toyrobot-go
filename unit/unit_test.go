@@ -1,16 +1,15 @@
 package unit_test
 
 import (
-	"fmt"
 	"testing"
 
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
+	"github.com/andrewbruno/go-toyrobot/unit"
 )
 
 func TestUnitXString(t *testing.T) {
 	input := unit.X(2)
 	expect := "2"
-	output := fmt.Sprintf("%s", input)
+	output := input.String()
 
 	if expect != output {
 		t.Errorf("Expected %s but got %s", expect, output)
@@ -20,7 +19,7 @@ func TestUnitXString(t *testing.T) {
 func TestUnitYString(t *testing.T) {
 	input := unit.Y(255)
 	expect := "255"
-	output := fmt.Sprintf("%s", input)
+	output := input.String()
 
 	if expect != output {
 		t.Errorf("Expected %s but got %s", expect, output)

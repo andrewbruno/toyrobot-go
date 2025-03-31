@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/cmd"
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/compass"
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/table"
-	"github.com/andrewbruno/go-toyrobot/src/toyrobot/unit"
+	"github.com/andrewbruno/go-toyrobot/cmd"
+	"github.com/andrewbruno/go-toyrobot/compass"
+	"github.com/andrewbruno/go-toyrobot/table"
+	"github.com/andrewbruno/go-toyrobot/unit"
 )
 
 // UI represents the CLI
