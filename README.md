@@ -2,9 +2,15 @@
 
 A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
+This was a coding challenge was created by [Jon Eaves](https://www.linkedin.com/in/joneaves/) at [ANZ](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/).
+
+Over the past decade, it has been a common interview take home test for many Australian companies.
+
 ## Prerequisites
 
-The code has been tested with the latest Go version. Ensure your Go version is up-to-date by executing `go version`.
+The code has been tested with Go version 1.23.1.
+
+Ensure your Go version is up-to-date by executing `go version`.
 
 If you don't have Go installed, you can download it from https://golang.org/dl/
 
@@ -56,9 +62,9 @@ ok      github.com/andrewbruno/go-toyrobot/unit     coverage: 100.0% of statemen
 
 ## Why Go?
 
-Golang is a beautiful language (subjective, I agree).  Let me explain why I like it:
-  * code formatting is universal, part of SDK.  No more religious discussions about styles.
-  * testing is out of the box.  No need for third party testing frameworks. Makes it ideal for TDD
-  * is less verbose than say, Java.  No need for private, public, etc.
+Golang is a beautiful language (subjective, I agree). Let me explain why I like it:
+  * code formatting is universal, part of SDK. No more religious discussions about styles.
+  * testing is out of the box. No need for third party testing frameworks. Makes it ideal for TDD
+  * is less verbose than say, Java. No need for private, public, etc.
   * is statically typed language, so many checks done at compile time.
   * all variables must be used, cannot compile if a variable is declared and not used.
