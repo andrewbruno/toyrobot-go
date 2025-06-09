@@ -4,13 +4,15 @@ A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
 The coding challenge was created by [Jon Eaves](https://www.linkedin.com/in/joneaves/) at [ANZ](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/).
 
-Over the past decade, it has been a common interview take home test for many Australian companies.
+Over the past decade, it has been a common interview take home test for many companies.
+
+I have decided to open source it because today many companies are using [HackerRank](https://www.hackerrank.com/), [LeetCode](https://leetcode.com/), [CodeSignal](https://codesignal.com/) or their own custom tests and there are close to [1000 open source projects](https://github.com/search?q=toyrobot&type=repositories).
 
 ## Architecture Overview
 
-On the 9th of June 2025, I asked [Amazon Q for Dev CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html) to review the codebase and provide any recomendations.
+The project follows a clean, modular architecture, adhering to separation of concerns.
 
-The codebase follows a clean, modular architecture with separation of concerns:
+Below is a structural outline:
 
 ```
 go-toyrobot/
@@ -24,6 +26,8 @@ go-toyrobot/
 └── doc/                 # Documentation
 ```
 
+> ✅ Reviewed with [Amazon Q for Dev CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html) on 9 June 2025 for best practices and structural integrity.
+
 ### Strengths
 
 1. Excellent Test Coverage: 100% coverage across all packages
@@ -35,7 +39,7 @@ go-toyrobot/
 
 ## Prerequisites
 
-The code was originally written for Go 1.1 in Nov 2017, but in Mar 2025 I trialed Copilot Agent mode as a learning exercise to see if it could fix the code and upgrade it to Go version 1.23.1, as per this [commit](https://github.com/andrewbruno/go-toyrobot/commit/37a724f532ead157ade0eea3bd698cd4a058111d).  Not a bad effort to upgrade and refactor the code in 30 minutes, ensuring all tests passed.
+The code was originally written for Go 1.1 in Nov 2017, but in Mar 2025 I trialed Copilot Agent mode as a learning exercise to see if it could fix the code and upgrade it to Go version 1.23.1, as per this [commit](https://github.com/andrewbruno/go-toyrobot/commit/37a724f532ead157ade0eea3bd698cd4a058111d). Copilot Agent mode successfully upgraded the code to Go 1.23.1 and passed all tests within 30 minutes.
 
 Ensure your Go version is up-to-date by executing `go version`.
 
@@ -89,9 +93,12 @@ ok      github.com/andrewbruno/go-toyrobot/unit     coverage: 100.0% of statemen
 
 ## Why Go?
 
-Golang is a beautiful language (subjective, I agree). Let me explain why I like it:
-  * code formatting is universal, part of SDK. No more religious discussions about styles.
-  * testing is out of the box. No need for third party testing frameworks. Makes it ideal for TDD
-  * is less verbose than say, Java. No need for private, public, etc.
-  * is statically typed language, so many checks done at compile time.
-  * all variables must be used, cannot compile if a variable is declared and not used.
+I first learned Go in 2016 at Raven Fly, while working remotely on [ManyMe](https://manyme.com/), a greenfield online privacy platform.
+
+Why I enjoyed using Go:
+
+**Built-in formatting** eliminates style debates.
+**Testing support out of the box** encourages TDD.
+**Less verbose** than Java — no need for access modifiers.
+**Statically typed** for compile-time safety.
+**Enforced use of variables** prevents bloat.
