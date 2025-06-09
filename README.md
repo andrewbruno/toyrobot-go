@@ -93,7 +93,7 @@ ok      github.com/andrewbruno/go-toyrobot/unit     coverage: 100.0% of statemen
 
 ## Why Go?
 
-I first learned Go in 2016 at Raven Fly, while working remotely on [ManyMe](https://manyme.com/), a greenfield online privacy platform.
+I started to learn Go in July 2016 at Raven Fly, while working remotely on [ManyMe](https://manyme.com/), a greenfield online privacy platform.
 
 Why I enjoyed using Go:
 
