@@ -12,6 +12,7 @@ On the 9th of June 2025, I asked [Amazon Q for Dev CLI](https://docs.aws.amazon.
 
 The codebase follows a clean, modular architecture with separation of concerns:
 
+```
 go-toyrobot/
 ├── main.go              # Entry point
 ├── ui/                  # User interface layer
@@ -21,6 +22,7 @@ go-toyrobot/
 ├── compass/             # Direction handling
 ├── unit/                # Coordinate types
 └── doc/                 # Documentation
+```
 
 ### Strengths
 
