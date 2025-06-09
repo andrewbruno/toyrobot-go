@@ -97,8 +97,8 @@ I first learned Go in 2016 at Raven Fly, while working remotely on [ManyMe](http
 
 Why I enjoyed using Go:
 
-**Built-in formatting** eliminates style debates.
-**Testing support out of the box** encourages TDD.
-**Less verbose** than Java — no need for access modifiers.
-**Statically typed** for compile-time safety.
-**Enforced use of variables** prevents bloat.
+- **Built-in formatting** eliminates style debates.
+- **Testing support out of the box** encourages TDD.
+- **Less verbose** than Java — no need for access modifiers.
+- **Statically typed** for compile-time safety.
+- **Enforced use of variables** prevents bloat.
