@@ -6,6 +6,35 @@ The coding challenge was created by [Jon Eaves](https://www.linkedin.com/in/jone
 
 Over the past decade, it has been a common interview take home test for many Australian companies.
 
+## Architecture Overview
+
+On the 9th of June 2025, I asked [Amazon Q for Dev CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html) to review the codebase and provide any recomendations.
+
+The codebase follows a clean, modular architecture with separation of concerns:
+
+go-toyrobot/
+├── main.go              # Entry point
+├── ui/                  # User interface layer
+├── cmd/                 # Command parsing
+├── table/               # Game board logic
+├── toy/                 # Robot entity
+├── compass/             # Direction handling
+├── unit/                # Coordinate types
+└── doc/                 # Documentation
+
+### Strengths
+
+1. Excellent Test Coverage: 100% coverage across all packages
+2. Clean Architecture: Well-separated concerns with clear interfaces
+3. Type Safety: Custom types for coordinates and directions prevent errors
+4. Robust Input Validation: Regex-based command parsing
+5. Interface Design: Good use of interfaces for testability
+
+
+## Prerequisites
+
+The code was originally written for Go 1.1 in Nov 2017, but in Mar 2025 I trialed Copilot Agent mode as a learning exercise to see if it could fix the code and upgrade it to Go version 1.23.1, as per this [commit](https://github.com/andrewbruno/go-toyrobot/commit/37a724f532ead157ade0eea3bd698cd4a058111d).  Not a bad effort to upgrade and refactor the code in 30 minutes, ensuring all tests passed.
+
 Ensure your Go version is up-to-date by executing `go version`.
 
 If you don't have Go installed, you can download it from https://golang.org/dl/
