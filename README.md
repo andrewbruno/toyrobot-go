@@ -2,13 +2,9 @@
 
 A Go (Golang) implementation as per [PROBLEM](doc/PROBLEM.md) requirements.
 
-This was a coding challenge was created by [Jon Eaves](https://www.linkedin.com/in/joneaves/) at [ANZ](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/).
+The coding challenge was created by [Jon Eaves](https://www.linkedin.com/in/joneaves/) at [ANZ](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/).
 
 Over the past decade, it has been a common interview take home test for many Australian companies.
-
-## Prerequisites
-
-The code has been tested with Go version 1.23.1.
 
 Ensure your Go version is up-to-date by executing `go version`.
 
